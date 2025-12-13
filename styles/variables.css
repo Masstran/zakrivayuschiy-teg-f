@@ -1,1 +1,28 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font-family: "Inter-Variable";
+  --accent-font-family: "PressStart2P";
+  --regular-font-weigth: 410;
+  --bold-font-weight: 715;
+
+  --background-gradient: repeating-linear-gradient(to right, #d3d3d3 2px, transparent 4px), repeating-linear-gradient(to bottom, #d3d3d3 2px, transparent 4px), linear-gradient(to bottom, #e7e7e7, #1a1a1a);
+
+  --block-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
+  --save-button-width: clamp(19.125rem, 18.4868rem + 2.723vw, 20.9375rem);
+  --save-button-height: clamp(3.4375rem, 5.8882rem + -2.723vw, 5.25rem);
+  --floppy-size: clamp(1.3125rem, 1.904rem + -0.6573vw, 1.75rem);
+  --dialog-width: clamp(21.3125rem, 21.0484rem + 1.1268vw, 22.0625rem);
+
+  --text-mix-blend-color: white;
+
+  --header-title-font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  --header-text-font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  --main-text-font-size: 18px;
+  --accent-text-font-size: 14px;
+
+  --header-padding-block-size: clamp(7.625rem, 7.4489rem + 0.7512vw, 8.125rem);
+
+  --contour-color: black;
+  --animantion-fill-color: red;
+
+}
