@@ -311,17 +311,17 @@
       </button>
     </main>
     <script src="./scripts/like.js"></script>
+    <dialog class="dialog" id="dialog">
+      <div class="dialog__body">
+        <svg class="dialog__body-icon" height="39" viewBox="0 0 39 39" width="39">
+          <use href="svg/floppy.svg#floppy"/>
+        </svg>
+        <p class="dialog__body-text">Вставьте
+          дискету, чтобы продолжить</p>
+      </div>
+      <button class="dialog__button regular-button" onclick="window['dialog'].close()">
+        <span class="button__text">OK</span>
+      </button>
+    </dialog>
   </body>
-  <dialog class="dialog" id="dialog">
-    <div class="dialog__body">
-      <svg class="dialog__body-icon" height="39" viewBox="0 0 39 39" width="39">
-        <use href="svg/floppy.svg#floppy"/>
-      </svg>
-      <p class="dialog__body-text">Вставьте
-        дискету, чтобы продолжить</p>
-    </div>
-    <button class="dialog__button regular-button" onclick="window['dialog'].close()">
-      <span class="button__text">OK</span>
-    </button>
-  </dialog>
 </html>
