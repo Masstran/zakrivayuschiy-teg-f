@@ -340,12 +340,12 @@ body:has(.dialog[open]) {
   translate: -100% 0;
 }
 
-.regular-button:focus, .card__like-button:focus .regular-button {
+.regular-button:focus-visible {
   box-shadow: 2px 2px 0 black;
   outline: none;
 }
 
-.regular-button:hover::after, .card__like-button:hover .regular-button::after {
+.regular-button:hover::after {
   translate: 0;
 }
 
