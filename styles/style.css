@@ -274,7 +274,6 @@
   max-inline-size: 100%;
   max-block-size: 100%;
   inline-size: var(--dialog-width, 353px);
-  block-size: 191px;
 }
 
 body:has(.dialog[open]) {
@@ -293,7 +292,6 @@ body:has(.dialog[open]) {
   display: flex;
   align-items: center;
   gap: 20px;
-  min-block-size: 63px;
 }
 
 .dialog__body-icon {
